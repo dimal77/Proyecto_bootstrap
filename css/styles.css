@@ -11344,7 +11344,15 @@ p {
 }
 
 .bg-faded {
-  background-color: #f6e1c5;
+  /*background-color: #f6e1c5;*/
+  background: rgba(246, 225, 197, 0.77);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.4px);
+-webkit-backdrop-filter: blur(5.4px);
+border: 1px solid rgba(246, 225, 197, 0.26);
+-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);
 }
 
 .btn-xl {
