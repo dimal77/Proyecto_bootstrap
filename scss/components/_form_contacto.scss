@@ -1,0 +1,99 @@
+/* FORM CONTACTO */
+
+.form-control {
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+.contact-image {
+  text-align: center;
+}
+.contact-image img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.contact-form form {
+  padding: 14%;
+}
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+.contact-form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #ffff;
+  cursor: pointer;
+}
+.btnContact {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: $color_boton;
+  border: none;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.btn-ya {
+  color: #fff;
+}
+
+.iconos {
+  margin: 0 1rem;
+}
+.w-100 {
+  border-radius: 20px;
+}
+
+.nav-link {
+  transition: 2s ease all;
+  border-radius: 3rem;
+}
+.nav-link:hover {
+  position: relative;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color;
+  -o-transition-duration: 1s;
+  background-color: $color_interior_tarjetas;
+}
+
+.btn {
+  animation-name: btn-animado;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+}
+
+.btnContact {
+  animation-name: btn-animado;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+}
+
+@keyframes btn-animado {
+  0% {
+    background-color: $color_boton;
+  }
+  50% {
+    background-color: #0dcaf0;
+  }
+  100% {
+    background-color: $color_boton;
+  }
+}
+
