@@ -214,19 +214,6 @@ mark,
   padding: 0.2em;
   background-color: #fcf8e3; }
 
-sub,
-sup {
-  position: relative;
-  font-size: 0.75em;
-  line-height: 0;
-  vertical-align: baseline; }
-
-sub {
-  bottom: -0.25em; }
-
-sup {
-  top: -0.5em; }
-
 a {
   color: #e6a756;
   text-decoration: underline; }
@@ -2196,20 +2183,17 @@ textarea.form-control-lg {
 .input-group-sm > .form-select {
   padding-right: 3rem; }
 
-.input-group:not(.has-validation)
-> :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),
+.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),
 .input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
-.input-group.has-validation
-> :nth-last-child(n + 3):not(.dropdown-toggle):not(.dropdown-menu),
+.input-group.has-validation > :nth-last-child(n + 3):not(.dropdown-toggle):not(.dropdown-menu),
 .input-group.has-validation > .dropdown-toggle:nth-last-child(n + 4) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
-.input-group
-> :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
   margin-left: -1px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
@@ -8776,7 +8760,7 @@ p {
     position: relative;
     z-index: 1;
     margin-bottom: -3rem; }
-  .product-item .product-item-img {
+  .product-item-img {
     position: relative;
     z-index: 0;
     max-width: 60vw; }
@@ -8823,44 +8807,33 @@ p {
 .contact-image {
   text-align: center; }
 
-.contact-image img {
-  border-radius: 6rem;
-  width: 11%;
-  margin-top: -3%;
-  transform: rotate(29deg); }
-
-.contact-form form {
+.contact-form form, .btnContact form {
   padding: 14%; }
 
-.contact-form form .row {
+.contact-form form .row, .btnContact form .row {
   margin-bottom: -7%; }
 
-.contact-form h3 {
+.contact-form h3, .btnContact h3 {
   margin-bottom: 8%;
   margin-top: -10%;
   text-align: center;
   color: #0062cc; }
 
-.contact-form .btnContact {
+.contact-form, .btnContact {
   width: 50%;
-  border: none;
   border-radius: 1rem;
   padding: 1.5%;
-  background: #dc3545;
-  font-weight: 600;
   color: #ffff;
-  cursor: pointer; }
-
-.btnContact {
-  width: 50%;
-  border-radius: 1rem;
-  padding: 1.5%;
-  color: #fff;
-  background-color: #4b7395;
   border: none;
   cursor: pointer;
+  background: #dc3545;
+  font-weight: 600; }
+
+.btnContact {
+  background-color: #4b7395;
   margin-top: 2rem; }
 
+/*Uso de EXTEND*/
 .btn-ya {
   color: #fff; }
 
@@ -8902,3 +8875,14 @@ p {
     background-color: #0dcaf0; }
   100% {
     background-color: #4b7395; } }
+
+.fa-facebook {
+  color: #3b5998; }
+
+.fa-twitter {
+  color: #00acee; }
+
+.fa-instagram {
+  color: #E1306C; }
+
+/*MAPA REDES*/

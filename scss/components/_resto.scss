@@ -154,22 +154,6 @@ mark,
   background-color: #fcf8e3;
 }
 
-sub,
-sup {
-  position: relative;
-  font-size: 0.75em;
-  line-height: 0;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
 a {
   color: #e6a756;
   text-decoration: underline;
@@ -11750,7 +11734,7 @@ p {
     z-index: 1;
     margin-bottom: -3rem;
   }
-  .product-item .product-item-img {
+  .product-item-img {
     position: relative;
     z-index: 0;
     max-width: 60vw;

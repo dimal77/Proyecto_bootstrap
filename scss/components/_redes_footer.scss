@@ -1,0 +1,11 @@
+$redes:(
+  facebook:#3b5998,
+  twitter:#00acee,
+  instagram:#E1306C
+);
+
+@each $red, $color in $redes{
+  .fa-#{$red}{
+    color:$color;
+  }
+}

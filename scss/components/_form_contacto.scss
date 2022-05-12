@@ -1,17 +1,14 @@
 /* FORM CONTACTO */
+@mixin borde-margin($border,$marginT){
+  border-radius:$border;
+  margin-top:$marginT;
+};
 
 .form-control {
-  border-radius: 1rem;
-  margin-top: 1rem;
+  @include borde-margin(1rem,1rem);
 }
 .contact-image {
   text-align: center;
-}
-.contact-image img {
-  border-radius: 6rem;
-  width: 11%;
-  margin-top: -3%;
-  transform: rotate(29deg);
 }
 .contact-form form {
   padding: 14%;
@@ -25,26 +22,22 @@
   text-align: center;
   color: #0062cc;
 }
-.contact-form .btnContact {
+.contact-form {
   width: 50%;
-  border: none;
   border-radius: 1rem;
   padding: 1.5%;
+  color: #ffff;
+  border: none;
+  cursor: pointer;
   background: #dc3545;
   font-weight: 600;
-  color: #ffff;
-  cursor: pointer;
+  
 }
 .btnContact {
-  width: 50%;
-  border-radius: 1rem;
-  padding: 1.5%;
-  color: #fff;
+  @extend .contact-form;
   background-color: $color_boton;
-  border: none;
-  cursor: pointer;
   margin-top: 2rem;
-}
+} /*Uso de EXTEND*/
 
 .btn-ya {
   color: #fff;
