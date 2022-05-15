@@ -868,8 +868,10 @@ body {
   padding-right: 2rem; }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
-  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  background-color: rgba(0, 0, 0, 0.722);
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  border-top: 0.25rem solid rgba(255, 255, 255, 0.7);
+  border-bottom: 0.25rem solid rgba(255, 255, 255, 0.7); }
 
 #mainNav .navbar-brand {
   color: #e6a756; }
@@ -923,7 +925,8 @@ footer p {
   color: #f6e1c5; }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9); }
+  background-color: rgba(0, 0, 0, 0.722);
+  border-top: 0.25rem solid rgba(255, 255, 255, 0.7); }
 
 .intro {
   position: relative; }
