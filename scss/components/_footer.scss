@@ -1,0 +1,19 @@
+/*footer*/
+footer p{
+  color: #f6e1c5
+}
+.footer {
+  background-color: rgba(0, 0, 0, 0.722);
+  border-top: 0.25rem solid rgba(255, 255, 255, 0.70);
+}
+$redes:(
+  facebook:#3b5998,
+  twitter:#00acee,
+  instagram:#E1306C
+);
+@each $red, $color in $redes{
+  .fa-#{$red}{
+    color:$color;
+  }
+}
+/*Fin Footer*/

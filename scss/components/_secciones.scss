@@ -1,0 +1,84 @@
+/*Secciones de las paginas*/
+.site-heading {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  & .site-heading-upper {
+      display: block;
+      font-size: 2rem;
+      font-weight: 800;
+    }
+  & .site-heading-lower {
+      font-size: 5rem;
+      font-weight: 100;
+      line-height: 4rem;
+    }
+}
+.page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.page-section-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.section-heading {
+  text-transform: uppercase;
+  & .section-heading-upper {
+      display: block;
+      font-size: 1rem;
+      font-weight: 800;
+    }
+  & .section-heading-lower {
+      display: block;
+      font-size: 2rem;
+      font-weight: 100;
+    }
+}
+.bg-faded {
+  background: rgba(246, 225, 197, 0.77);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  border: 1px solid rgba(246, 225, 197, 0.26);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+}
+@media (min-width: 992px) {
+  .about-heading {
+    & .about-heading-img {
+        position: relative;
+        z-index: 0;
+      }
+    & .about-heading-content {
+        margin-top: -5rem;
+        position: relative;
+        z-index: 1;
+      }
+    }
+}
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(230, 167, 86, 0.9);
+  & .cta-inner {
+      position: relative;
+      padding: 3rem;
+      margin: 0.5rem;
+    }
+  & .cta-inner:before {
+      border-radius: 0.5rem;
+      content: "";
+      position: absolute;
+      top: -0.5rem;
+      bottom: -0.5rem;
+      left: -0.5rem;
+      right: -0.5rem;
+      border: 0.25rem solid rgba(255, 255, 255, 0.85);
+      z-index: -1;
+    }
+}
+/*Fin Secciones de las paginas*/
