@@ -255,7 +255,7 @@ ul {
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
-  border-radius: 0.25rem;
+  border-radius: 3rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1); }
 
@@ -313,7 +313,8 @@ ul {
 
 .btnContact {
   background-color: #4b7395;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  color: #ffffff; }
 
 /*Uso de EXTEND*/
 .btnContact:hover {
@@ -837,10 +838,10 @@ ul {
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; }
 
 .rounded {
-  border-radius: 0.25rem !important; }
+  border-radius: 4.5rem !important; }
 
 .rounded-2 {
-  border-radius: 0.25rem !important; }
+  border-radius: 3rem !important; }
 
 @media (min-width: 992px) {
   .d-lg-block {
@@ -918,14 +919,14 @@ ul {
     padding: 3rem;
     margin: 0.5rem; }
   .cta .cta-inner:before {
-    border-radius: 0.5rem;
+    border-radius: 5rem;
     content: "";
     position: absolute;
     top: -0.5rem;
     bottom: -0.5rem;
     left: -0.5rem;
     right: -0.5rem;
-    border: 0.25rem solid rgba(255, 255, 255, 0.85);
+    border: 0.25rem solid rgba(16, 15, 15, 0.85);
     z-index: -1; }
 
 /*Fin Secciones de las paginas*/
